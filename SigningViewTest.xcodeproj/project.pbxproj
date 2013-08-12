@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0694F7B017B4D4D00012199C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0694F7AF17B4D4D00012199C /* UIKit.framework */; };
+		0694F7B217B4D4D00012199C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0694F7B117B4D4D00012199C /* Foundation.framework */; };
+		0694F7B417B4D4D00012199C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0694F7B317B4D4D00012199C /* CoreGraphics.framework */; };
+		0694F7BA17B4D4D00012199C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0694F7B817B4D4D00012199C /* InfoPlist.strings */; };
+		0694F7BC17B4D4D00012199C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694F7BB17B4D4D00012199C /* main.m */; };
+		0694F7C017B4D4D00012199C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694F7BF17B4D4D00012199C /* AppDelegate.m */; };
+		0694F7C217B4D4D00012199C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694F7C117B4D4D00012199C /* Default.png */; };
+		0694F7C417B4D4D00012199C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694F7C317B4D4D00012199C /* Default@2x.png */; };
+		0694F7C617B4D4D00012199C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0694F7C517B4D4D00012199C /* Default-568h@2x.png */; };
+		0694F7C917B4D4D00012199C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694F7C817B4D4D00012199C /* ViewController.m */; };
+		0694F7CC17B4D4D00012199C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0694F7CA17B4D4D00012199C /* ViewController.xib */; };
+		0694F7D417B4D55A0012199C /* SigningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694F7D317B4D55A0012199C /* SigningView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0694F7AC17B4D4D00012199C /* SigningViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigningViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0694F7AF17B4D4D00012199C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0694F7B117B4D4D00012199C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0694F7B317B4D4D00012199C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0694F7B717B4D4D00012199C /* SigningViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SigningViewTest-Info.plist"; sourceTree = "<group>"; };
+		0694F7B917B4D4D00012199C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0694F7BB17B4D4D00012199C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0694F7BD17B4D4D00012199C /* SigningViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SigningViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		0694F7BE17B4D4D00012199C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0694F7BF17B4D4D00012199C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0694F7C117B4D4D00012199C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0694F7C317B4D4D00012199C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0694F7C517B4D4D00012199C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0694F7C717B4D4D00012199C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0694F7C817B4D4D00012199C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0694F7CB17B4D4D00012199C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0694F7D217B4D55A0012199C /* SigningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigningView.h; sourceTree = "<group>"; };
+		0694F7D317B4D55A0012199C /* SigningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigningView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0694F7A917B4D4D00012199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0694F7B017B4D4D00012199C /* UIKit.framework in Frameworks */,
+				0694F7B217B4D4D00012199C /* Foundation.framework in Frameworks */,
+				0694F7B417B4D4D00012199C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0694F7A317B4D4D00012199C = {
+			isa = PBXGroup;
+			children = (
+				0694F7B517B4D4D00012199C /* SigningViewTest */,
+				0694F7AE17B4D4D00012199C /* Frameworks */,
+				0694F7AD17B4D4D00012199C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0694F7AD17B4D4D00012199C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0694F7AC17B4D4D00012199C /* SigningViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0694F7AE17B4D4D00012199C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0694F7AF17B4D4D00012199C /* UIKit.framework */,
+				0694F7B117B4D4D00012199C /* Foundation.framework */,
+				0694F7B317B4D4D00012199C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0694F7B517B4D4D00012199C /* SigningViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				0694F7BE17B4D4D00012199C /* AppDelegate.h */,
+				0694F7BF17B4D4D00012199C /* AppDelegate.m */,
+				0694F7C717B4D4D00012199C /* ViewController.h */,
+				0694F7C817B4D4D00012199C /* ViewController.m */,
+				0694F7CA17B4D4D00012199C /* ViewController.xib */,
+				0694F7B617B4D4D00012199C /* Supporting Files */,
+				0694F7D217B4D55A0012199C /* SigningView.h */,
+				0694F7D317B4D55A0012199C /* SigningView.m */,
+			);
+			path = SigningViewTest;
+			sourceTree = "<group>";
+		};
+		0694F7B617B4D4D00012199C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0694F7B717B4D4D00012199C /* SigningViewTest-Info.plist */,
+				0694F7B817B4D4D00012199C /* InfoPlist.strings */,
+				0694F7BB17B4D4D00012199C /* main.m */,
+				0694F7BD17B4D4D00012199C /* SigningViewTest-Prefix.pch */,
+				0694F7C117B4D4D00012199C /* Default.png */,
+				0694F7C317B4D4D00012199C /* Default@2x.png */,
+				0694F7C517B4D4D00012199C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0694F7AB17B4D4D00012199C /* SigningViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0694F7CF17B4D4D00012199C /* Build configuration list for PBXNativeTarget "SigningViewTest" */;
+			buildPhases = (
+				0694F7A817B4D4D00012199C /* Sources */,
+				0694F7A917B4D4D00012199C /* Frameworks */,
+				0694F7AA17B4D4D00012199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigningViewTest;
+			productName = SigningViewTest;
+			productReference = 0694F7AC17B4D4D00012199C /* SigningViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0694F7A417B4D4D00012199C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = csair;
+			};
+			buildConfigurationList = 0694F7A717B4D4D00012199C /* Build configuration list for PBXProject "SigningViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0694F7A317B4D4D00012199C;
+			productRefGroup = 0694F7AD17B4D4D00012199C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0694F7AB17B4D4D00012199C /* SigningViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0694F7AA17B4D4D00012199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0694F7BA17B4D4D00012199C /* InfoPlist.strings in Resources */,
+				0694F7C217B4D4D00012199C /* Default.png in Resources */,
+				0694F7C417B4D4D00012199C /* Default@2x.png in Resources */,
+				0694F7C617B4D4D00012199C /* Default-568h@2x.png in Resources */,
+				0694F7CC17B4D4D00012199C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0694F7A817B4D4D00012199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0694F7BC17B4D4D00012199C /* main.m in Sources */,
+				0694F7C017B4D4D00012199C /* AppDelegate.m in Sources */,
+				0694F7C917B4D4D00012199C /* ViewController.m in Sources */,
+				0694F7D417B4D55A0012199C /* SigningView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0694F7B817B4D4D00012199C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0694F7B917B4D4D00012199C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0694F7CA17B4D4D00012199C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0694F7CB17B4D4D00012199C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0694F7CD17B4D4D00012199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0694F7CE17B4D4D00012199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0694F7D017B4D4D00012199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SigningViewTest/SigningViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SigningViewTest/SigningViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0694F7D117B4D4D00012199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SigningViewTest/SigningViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SigningViewTest/SigningViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0694F7A717B4D4D00012199C /* Build configuration list for PBXProject "SigningViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0694F7CD17B4D4D00012199C /* Debug */,
+				0694F7CE17B4D4D00012199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0694F7CF17B4D4D00012199C /* Build configuration list for PBXNativeTarget "SigningViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0694F7D017B4D4D00012199C /* Debug */,
+				0694F7D117B4D4D00012199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0694F7A417B4D4D00012199C /* Project object */;
+}
