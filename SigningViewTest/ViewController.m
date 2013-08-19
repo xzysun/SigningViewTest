@@ -39,7 +39,10 @@
     UIImage *image = [self.signingView imageForSigning];
     NSString *imagePath = [[self getPath] stringByAppendingPathComponent:@"image1.png"];
     NSData *imageData = UIImagePNGRepresentation(image);
+    //保存到本地文件
     [imageData writeToFile:imagePath atomically:YES];
+    //保存到用户相册
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     NSString *msg = [NSString stringWithFormat:@"文件%@已经保存。",imagePath];
     UIAlertView *alert = [[[UIAlertView alloc]initWithTitle:@"提示" message:msg delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] autorelease];
     [alert show];
